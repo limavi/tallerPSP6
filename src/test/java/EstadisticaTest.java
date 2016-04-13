@@ -12,7 +12,7 @@ import junit.framework.TestCase;
 
 /**
  *
- * @author Li
+ * @author Lili
  */
 public class EstadisticaTest extends TestCase {
     
@@ -65,5 +65,17 @@ public class EstadisticaTest extends TestCase {
         resultado = Visual.tranformarDecimales(result,6);
         System.out.println("Resultado:"+resultado);
         assertEquals(expResult, resultado);
+    }
+    
+    /**
+     * Test of calcularFxSegundaParte method, of class Estadistica.
+     */
+    public void testCalcularFxSegundaParte() {
+        System.out.println("calcularFxSegundaParte");
+        int dof = 10;
+        float valorIteracion = 0.0F;
+        double expResult = 1.0;
+        double result = Estadistica.calcularFxSegundaParte(dof, valorIteracion);
+        assertEquals(expResult, result, 0.0);
     }
 }
