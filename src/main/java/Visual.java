@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
 /**
  * Esta clase permite realizar la tranformacion de los numeros double con el fin 
  * que se pueda mostrar detalladamente con decimales.
- * @author Dito
+ * @author Lili
  */
 public class Visual {
     

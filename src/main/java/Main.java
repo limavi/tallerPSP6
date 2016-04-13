@@ -18,7 +18,7 @@ import spark.Response;
 
 /**
  * Clase que contiene las ejecuciones principales del programa
- * @author Dito
+ * @author Lili
  */
 public class Main {
     

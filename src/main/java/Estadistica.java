@@ -14,7 +14,7 @@ import org.apache.commons.math3.special.Gamma;
  * Esta clase se utiliza para realizar las operaciones matematicas y
  * estadisticas
  *
- * @author Dito
+ * @author Lili
  */
 public class Estadistica {
 
