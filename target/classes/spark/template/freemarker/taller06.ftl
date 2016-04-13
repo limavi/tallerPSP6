@@ -12,9 +12,9 @@ th, td {
 </style>
 </head>
 <body>
-<h3> Taller #6 </h3>
+<h2> Taller #6 </h2>
 <TABLE BORDER>
-    <TR BGCOLOR="#FFFF99">
+    <TR>
         <TH COLSPAN=2>Test</TH>
         <TH COLSPAN=1>Expected Value</TH>
         <TH COLSPAN=1>Actual Value</TH>
